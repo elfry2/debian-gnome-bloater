@@ -1,7 +1,10 @@
 #!/bin/bash
 packages=(
+	flathub\ com.github.rafostar.Clapper
 	flathub\ com.brave.Browser
 	flathub\ com.spotify.Client
+	flathub\ io.bassi.Amberol
+	flathub\ com.github.johnfactotum.Foliate
 	flathub\ com.visualstudio.code
 	flathub\ io.dbeaver.DBeaverCommunity
 	flathub\ us.zoom.Zoom

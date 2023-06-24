@@ -3,6 +3,7 @@
 modules=(
 	about
 	add-apt-repositories
+	remove-apt-packages
 	install-apt-packages
 	enable-broadcom-sta-dkms-driver
 	enable-gnome-extensions
