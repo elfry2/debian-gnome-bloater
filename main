@@ -2,16 +2,15 @@
 
 source header
 
-initial_directory=$(pwd)
-
 # Ensure that all registered modules exist before sourcing them.
 for item in "${modules[@]}"; do
-	if [ ! -d "$item" ]; then
+	if [ ! -f "$item"/main ]; then
 		echo "Module $item does not exist. Exiting..."
 		exit
 	fi
 done
 
+initial_directory=$(pwd)
 last_exit_code=0
 
 # Source the modules sequentially. Stop on error.
