@@ -1,0 +1,5 @@
+#!/bin/bash
+
+repositories=(
+	"flathub https://flathub.org/repo/flathub.flatpakrepo"
+)

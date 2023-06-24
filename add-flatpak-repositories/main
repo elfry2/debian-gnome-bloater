@@ -1,0 +1,8 @@
+#!/bin/bash
+
+source header
+
+for item in "${repositories[@]}"; do
+	echo "Adding $item"
+	flatpak remote-add --if-not-exists $item
+done

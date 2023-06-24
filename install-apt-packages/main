@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source header
+
+sudo apt install -y $(printf "%s "  "${packages[@]}")

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+repositories=(
+	"deb http://deb.debian.org/debian $(lsb_release -cs) main contrib non-free"
+	"deb-src http://deb.debian.org/debian $(lsb_release -cs) main contrib non-free"
+	
+	"deb http://deb.debian.org/debian-security/ $(lsb_release -cs)-security main contrib non-free"
+	"deb-src http://deb.debian.org/debian-security/ $(lsb_release -cs)-security main contrib non-free"
+	
+	"deb http://deb.debian.org/debian $(lsb_release -cs)-updates main contrib non-free"
+	"deb-src http://deb.debian.org/debian $(lsb_release -cs)-updates main contrib non-free"
+	
+	"deb http://deb.debian.org/debian $(lsb_release -cs)-backports main contrib non-free"
+	"deb-src http://deb.debian.org/debian $(lsb_release -cs)-backports main contrib non-free"
+)

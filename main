@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source header
+
+initial_directory=$(pwd)
+
+for item in "${modules[@]}"; do
+	echo
+	echo "Executing $item"
+	cd $item
+	source main
+	cd $initial_directory
+done

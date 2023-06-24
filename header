@@ -1,0 +1,9 @@
+modules=(
+	about
+	add-apt-repositories
+	install-apt-packages
+	install-broadcom-sta-dkms-driver
+	add-flatpak-repositories
+	install-flatpak-packages
+	script-finished
+)

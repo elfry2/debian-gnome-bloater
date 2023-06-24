@@ -1,0 +1,8 @@
+#!/bin/bash
+packages=(
+	flathub\ com.brave.Browser
+	flathub\ com.spotify.Client
+	flathub\ com.visualstudio.code
+	flathub\ io.dbeaver.DBeaverCommunity
+	flathub\ us.zoom.Zoom
+)

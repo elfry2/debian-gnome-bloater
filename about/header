@@ -1,0 +1,4 @@
+#!/bin/bash
+
+name="Debian GNOME Bloater"
+description="Please review all modules listed in the modules array in the header file before proceeding further, as they may cause unwanted changes. Please ensure that your internet connection remains stable until the script finishes executing."
