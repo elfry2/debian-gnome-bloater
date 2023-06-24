@@ -1,0 +1,20 @@
+#!/bin/bash
+# Source this file in your shell's .*rc file.
+
+alias l="ls -lah"
+alias c="clear"
+alias x="exit"
+alias e="l3afpad"
+alias n="neofetch"
+alias h="htop"
+alias pm="sudo apt"
+alias pmi="sudo apt install -y"
+alias pms="apt search"
+alias pmu="sudo apt update && sudo apt full-upgrade -y"
+alias pmr="sudo apt purge"
+alias pmc="sudo apt autoremove && sudo apt clean"
+alias cdd="cd /mnt/Data/Users/Elfry/"
+alias cdh="cd /var/www/html"
+alias p="ping google.com"
+alias pa="php artisan"
+alias pas="php artisan serve --host=0.0.0.0"

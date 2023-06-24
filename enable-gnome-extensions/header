@@ -1,0 +1,9 @@
+#!/bin/bash
+
+extensions=(
+	hidetopbar@mathieu.bidon.ca
+	caffeine@patapon.info
+	dash-to-dock@micxgx.gmail.com
+	no-overview@fthx
+	gsconnect@andyholmes.github.io
+)

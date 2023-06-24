@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo modprobe -r b44 b43 b43legacy ssb brcmsmac bcma
+sudo modprobe wl

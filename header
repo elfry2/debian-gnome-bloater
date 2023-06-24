@@ -1,8 +1,13 @@
+#!/bin/bash
+
 modules=(
 	about
 	add-apt-repositories
 	install-apt-packages
-	install-broadcom-sta-dkms-driver
+	enable-broadcom-sta-dkms-driver
+	enable-gnome-extensions
+	copy-aliases-file-to-home-directory
+	create-empty-file-template
 	add-flatpak-repositories
 	install-flatpak-packages
 	script-finished

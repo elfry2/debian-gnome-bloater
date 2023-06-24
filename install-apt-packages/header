@@ -6,7 +6,7 @@ packages=(
 	neofetch
 	htop
 	git
-	mousepad
+	l3afpad
 	flatpak
 	gnome-software-plugin-flatpak
 	gnome-shell-extension-appindicator
