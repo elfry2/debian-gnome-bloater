@@ -4,10 +4,24 @@ source header
 
 initial_directory=$(pwd)
 
+# Ensure that all registered modules exist before sourcing them.
 for item in "${modules[@]}"; do
-	echo
-	echo "Executing $item"
-	cd "$item"
-	source main
-	cd "$initial_directory"
+	if [ ! -d "$item" ]; then
+		echo "Module $item does not exist. Exiting..."
+		exit
+	fi
+done
+
+last_exit_code=0
+
+# Source the modules sequentially. Stop on error.
+for item in "${modules[@]}"; do
+	if [ $last_exit_code == 0 ]; then
+		echo
+		echo "Now executing $item"
+		cd "$item"
+		source main
+		last_exit_code=$?
+		cd "$initial_directory"
+	fi
 done
