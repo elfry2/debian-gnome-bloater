@@ -1,4 +1,5 @@
 #!/bin/bash
 packages=(
 #	libreoffice* # removes gnome for some reason
+	firefox-esr
 )
