@@ -6,7 +6,6 @@ packages=(
 	flathub\ com.spotify.Client
 	flathub\ io.bassi.Amberol
 	flathub\ com.github.johnfactotum.Foliate
-	flathub\ com.visualstudio.code
 	flathub\ io.dbeaver.DBeaverCommunity
 	flathub\ us.zoom.Zoom
 	flathub\ io.github.seadve.Kooha

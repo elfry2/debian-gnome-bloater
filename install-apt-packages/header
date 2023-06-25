@@ -33,4 +33,6 @@ packages=(
 	php-xml
 	php-zip
 	composer
+	apt-transport-https
+	code
 )

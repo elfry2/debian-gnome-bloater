@@ -3,6 +3,7 @@
 modules=(
 	about
 	add-apt-repositories
+	add-visual-studio-code-apt-repository
 	remove-apt-packages
 	install-apt-packages
 #	enable-broadcom-sta-dkms-driver
