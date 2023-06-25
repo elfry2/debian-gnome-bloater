@@ -1,5 +1,6 @@
 #!/bin/bash
 packages=(
+	flathub\ com.github.tchx84.Flatseal
 	flathub\ com.github.rafostar.Clapper
 	flathub\ com.brave.Browser
 	flathub\ com.spotify.Client
@@ -8,4 +9,5 @@ packages=(
 	flathub\ com.visualstudio.code
 	flathub\ io.dbeaver.DBeaverCommunity
 	flathub\ us.zoom.Zoom
+	flathub\ io.github.seadve.Kooha
 )
