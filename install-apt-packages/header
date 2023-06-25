@@ -17,4 +17,5 @@ packages=(
 	gnome-shell-extensions-extra
 	meson
 	ninja-build
+	gettext
 )

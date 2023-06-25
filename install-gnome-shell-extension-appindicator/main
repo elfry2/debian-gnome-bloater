@@ -4,3 +4,4 @@ rm -rv gnome-shell-extension-appindicator
 git clone https://github.com/ubuntu/gnome-shell-extension-appindicator.git
 meson gnome-shell-extension-appindicator /tmp/g-s-appindicators-build
 ninja -C /tmp/g-s-appindicators-build install
+rm -rv gnome-shell-extension-appindicator
