@@ -10,4 +10,7 @@ packages=(
 	flathub\ io.dbeaver.DBeaverCommunity
 	flathub\ us.zoom.Zoom
 	flathub\ io.github.seadve.Kooha
+	flathub\ org.gtk.Gtk3theme.Adwaita-dark
+	flathub\ org.kde.KStyle.Adwaita//5.9
+	flathub\ org.kde.PlatformTheme.QGnomePlatform//5.9
 )

@@ -18,4 +18,19 @@ packages=(
 	meson
 	ninja-build
 	gettext
+	apache2
+	mariadb-server
+	php
+	libapache2-mod-php
+	php-mysql
+	openssl
+	php-bcmath
+	php-curl
+	php-json
+	php-mbstring
+	php-mysql
+	php-tokenizer
+	php-xml
+	php-zip
+	composer
 )
