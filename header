@@ -6,6 +6,7 @@ modules=(
 	remove-apt-packages
 	install-apt-packages
 #	enable-broadcom-sta-dkms-driver
+	install-gnome-shell-extension-appindicator
 	enable-gnome-extensions
 	copy-aliases-file-to-home-directory
 	create-empty-file-template

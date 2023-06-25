@@ -9,11 +9,12 @@ packages=(
 	l3afpad
 	flatpak
 	gnome-software-plugin-flatpak
-	gnome-shell-extension-appindicator
 	gnome-shell-extension-autohidetopbar
 	gnome-shell-extension-caffeine
 	gnome-shell-extension-dashtodock
 	gnome-shell-extension-desktop-icons-ng
 	gnome-shell-extension-gsconnect
 	gnome-shell-extensions-extra
+	meson
+	ninja-build
 )

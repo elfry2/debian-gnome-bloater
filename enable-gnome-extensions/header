@@ -1,7 +1,7 @@
 #!/bin/bash
 
 extensions=(
-	ubuntu-appindicators@ubuntu.com
+	appindicatorsupport@rgcjonas.gmail.com
 	hidetopbar@mathieu.bidon.ca
 	caffeine@patapon.info
 	dash-to-dock@micxgx.gmail.com
