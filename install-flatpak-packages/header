@@ -2,6 +2,7 @@
 packages=(
 	flathub\ com.github.tchx84.Flatseal
 	flathub\ com.github.rafostar.Clapper
+	flathub\ org.videolan.VLC
 	flathub\ com.brave.Browser
 	flathub\ com.spotify.Client
 	flathub\ io.bassi.Amberol

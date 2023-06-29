@@ -35,4 +35,5 @@ packages=(
 	composer
 	apt-transport-https
 	code
+	npm
 )
