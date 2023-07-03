@@ -37,4 +37,5 @@ packages=(
 	apt-transport-https
 	code
 	npm
+	unrar
 )
