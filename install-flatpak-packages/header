@@ -13,4 +13,6 @@ packages=(
 	flathub\ org.gtk.Gtk3theme.Adwaita-dark
 	flathub\ org.kde.KStyle.Adwaita//5.9
 	flathub\ org.kde.PlatformTheme.QGnomePlatform//5.9
+	flathub\ org.freedownloadmanager.Manager
+	flathub\ nz.mega.MEGAsync
 )
