@@ -1,9 +1,12 @@
 #!/bin/bash
 packages=(
 	flathub\ com.github.tchx84.Flatseal
+	flathub\ org.kde.KStyle.Kvantum
 	flathub\ com.github.rafostar.Clapper
 	flathub\ org.videolan.VLC
 	flathub\ com.brave.Browser
+	flathub\ com.github.johnfactotum.Foliate
+	flathub\ org.kde.arianna
 	flathub\ com.spotify.Client
 	flathub\ io.bassi.Amberol
 	flathub\ io.dbeaver.DBeaverCommunity

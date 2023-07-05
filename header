@@ -15,5 +15,7 @@ modules=(
 	create-empty-file-template
 	add-flatpak-repositories
 	install-flatpak-packages
-	script-finished
+	override-flatpak-qt-apps-theme
+	change-kvantum-theme
+	script-finished	
 )
