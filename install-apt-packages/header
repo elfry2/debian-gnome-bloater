@@ -35,7 +35,8 @@ packages=(
 	php-zip
 	composer
 	apt-transport-https
-	code
+	code # 'cause the built-in terminal in the Flatpak version doesn't use my system's shell
 	npm
 	unrar
+	foliate # 'cause the Flatpak version freezes everytime I turn a page
 )

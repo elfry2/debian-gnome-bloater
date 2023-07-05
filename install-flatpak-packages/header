@@ -6,13 +6,8 @@ packages=(
 	flathub\ com.brave.Browser
 	flathub\ com.spotify.Client
 	flathub\ io.bassi.Amberol
-	flathub\ com.github.johnfactotum.Foliate
 	flathub\ io.dbeaver.DBeaverCommunity
 	flathub\ us.zoom.Zoom
-	flathub\ io.github.seadve.Kooha
-	flathub\ org.gtk.Gtk3theme.Adwaita-dark
-	flathub\ org.kde.KStyle.Adwaita//5.9
-	flathub\ org.kde.PlatformTheme.QGnomePlatform//5.9
 	flathub\ org.freedownloadmanager.Manager
 	flathub\ nz.mega.MEGAsync
 )
