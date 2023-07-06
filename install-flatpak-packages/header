@@ -6,7 +6,7 @@ packages=(
 	flathub\ org.videolan.VLC
 	flathub\ com.brave.Browser
 	flathub\ com.github.johnfactotum.Foliate
-	flathub\ org.kde.arianna
+	flathub\ com.github.babluboy.bookworm
 	flathub\ com.spotify.Client
 	flathub\ io.bassi.Amberol
 	flathub\ io.dbeaver.DBeaverCommunity
