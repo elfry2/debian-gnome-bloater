@@ -6,7 +6,7 @@ packages=(
 	flathub\ org.videolan.VLC
 	flathub\ com.brave.Browser
 	flathub\ com.github.johnfactotum.Foliate
-	flathub\ com.github.babluboy.bookworm
+#	flathub\ com.github.babluboy.bookworm # Just in case Foliate hangs again. It hasn't hanged since I tried this fix from https://github.com/johnfactotum/foliate/issues/879#issuecomment-1290626110 . Basically set the GNOME power profile to anything other than Power Saver.
 	flathub\ com.spotify.Client
 	flathub\ io.bassi.Amberol
 	flathub\ io.dbeaver.DBeaverCommunity
