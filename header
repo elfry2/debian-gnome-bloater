@@ -16,6 +16,9 @@ modules=(
 	add-flatpak-repositories
 	install-flatpak-packages
 	override-flatpak-qt-apps-theme
+	install-kvlibadwaita-kvantum-theme
 	change-kvantum-theme
-	script-finished	
+	install-adw-gtk3-gtk3-theme
+	change-gtk3-theme
+	script-finished
 )

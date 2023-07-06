@@ -1,7 +1,7 @@
 #!/bin/bash
 packages=(
 	flathub\ com.github.tchx84.Flatseal
-	flathub\ org.kde.KStyle.Kvantum
+	flathub\ org.kde.KStyle.Kvantum//5.15
 	flathub\ com.github.rafostar.Clapper
 	flathub\ org.videolan.VLC
 	flathub\ com.brave.Browser
@@ -13,4 +13,7 @@ packages=(
 	flathub\ us.zoom.Zoom
 	flathub\ org.freedownloadmanager.Manager
 	flathub\ nz.mega.MEGAsync
+	flathub\ org.gtk.Gtk3theme.adw-gtk3
+	flathub\ org.gtk.Gtk3theme.adw-gtk3-dark
+
 )
