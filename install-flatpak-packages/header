@@ -15,5 +15,6 @@ packages=(
 	flathub\ nz.mega.MEGAsync
 	flathub\ org.gtk.Gtk3theme.adw-gtk3
 	flathub\ org.gtk.Gtk3theme.adw-gtk3-dark
-
+#	flathub\ org.gnome.Epiphany # Brave don't launch lately
+	flathub\ org.audacityteam.Audacity
 )
