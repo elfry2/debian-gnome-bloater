@@ -3,7 +3,6 @@ packages=(
 	flathub\ com.github.tchx84.Flatseal
 	flathub\ org.kde.KStyle.Kvantum//5.15
 	flathub\ com.github.rafostar.Clapper
-	flathub\ org.videolan.VLC
 	flathub\ com.brave.Browser
 	flathub\ com.github.johnfactotum.Foliate
 #	flathub\ com.github.babluboy.bookworm # Just in case Foliate hangs again. It hasn't hanged since I tried this fix from https://github.com/johnfactotum/foliate/issues/879#issuecomment-1290626110 . Basically set the GNOME power profile to anything other than Power Saver.
@@ -12,9 +11,6 @@ packages=(
 	flathub\ io.dbeaver.DBeaverCommunity
 	flathub\ us.zoom.Zoom
 	flathub\ org.freedownloadmanager.Manager
-	flathub\ nz.mega.MEGAsync
 	flathub\ org.gtk.Gtk3theme.adw-gtk3
 	flathub\ org.gtk.Gtk3theme.adw-gtk3-dark
-#	flathub\ org.gnome.Epiphany # Brave don't launch lately
-	flathub\ org.audacityteam.Audacity
 )
