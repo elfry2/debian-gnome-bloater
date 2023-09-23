@@ -36,6 +36,8 @@ packages=(
 	php-tokenizer
 	php-xml
 	php-zip
+	php-gd
+	phpmyadmin
 	composer
 	apt-transport-https
 	code # 'cause the built-in terminal in the Flatpak version doesn't use my system's shell
