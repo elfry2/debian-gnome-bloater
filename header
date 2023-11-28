@@ -20,5 +20,6 @@ modules=(
 	change-kvantum-theme
 	install-adw-gtk3-gtk3-theme
 	change-gtk3-theme
+	add-current-user-to-scanner-group
 	script-finished
 )

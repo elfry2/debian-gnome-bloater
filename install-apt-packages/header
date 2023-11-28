@@ -45,4 +45,5 @@ packages=(
 	unrar
 	qt5-style-kvantum
 	qt5-style-kvantum-themes
+	hplip-gui
 )
