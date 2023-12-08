@@ -5,9 +5,9 @@ modules=(
 	add-apt-repositories
 	add-visual-studio-code-apt-repository
 	remove-apt-packages
+full-upgrade-system
 	install-apt-packages
 #	enable-broadcom-sta-dkms-driver
-full-upgrade-system
 	install-gnome-shell-extension-appindicator
 	install-gnome-shell-extension-just-perfection
 	enable-gnome-extensions
