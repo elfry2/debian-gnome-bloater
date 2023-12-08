@@ -12,4 +12,5 @@ packages=(
 	flathub\ org.freedownloadmanager.Manager
 	flathub\ org.gtk.Gtk3theme.adw-gtk3
 	flathub\ org.gtk.Gtk3theme.adw-gtk3-dark
+flathub\ org.onlyoffice.desktopeditors
 )
