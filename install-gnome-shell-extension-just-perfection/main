@@ -5,4 +5,4 @@ git clone https://gitlab.gnome.org/jrahmatzadeh/just-perfection.git
 cd just-perfection
 ./scripts/build.sh -i
 cd ..
-rm -rv just-perfection
+sudo rm -rv just-perfection
