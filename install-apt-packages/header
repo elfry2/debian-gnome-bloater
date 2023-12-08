@@ -1,6 +1,6 @@
 #!/bin/bash
 packages=(
-vim
+neovim
 ranger
 	linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,')
 	linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,')
