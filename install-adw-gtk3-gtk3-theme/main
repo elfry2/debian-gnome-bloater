@@ -8,4 +8,4 @@ fileName=$(find . -name '*.tar.xz')
 
 sudo tar -xvf "$fileName" -C /usr/share/themes
 
-rm -rv "$fileName"
+sudo rm -rv "$fileName"
