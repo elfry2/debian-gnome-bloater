@@ -4,6 +4,7 @@ vim
 ranger
 	linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,')
 	linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,')
+firmware-ath9k-htc
 	broadcom-sta-dkms
 	curl
 	jq
