@@ -2,4 +2,4 @@
 A collection of BASH scripts to help automate my Debian GNOME post-install routines. USE AT YOUR OWN RISKS!
 
 ## Usage
-Review and modify every file as needed, then execute ```./main```.
+Review every file and modify as needed, then execute ```./main```.
