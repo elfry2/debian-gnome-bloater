@@ -4,4 +4,4 @@ git clone https://github.com/GabePoel/KvLibadwaita.git
 cd KvLibadwaita
 yes | sudo ./install.sh
 cd ..
-rm -rv KvLibadwaita
+sudo rm -rv KvLibadwaita
