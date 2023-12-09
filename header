@@ -22,6 +22,6 @@ full-upgrade-system
 	change-kvantum-theme
 	install-adw-gtk3-gtk3-theme
 	change-gtk3-theme
-	add-the-current-user-to-scanner-group
+	add-current-user-to-scanner-group
 	script-finished
 )
