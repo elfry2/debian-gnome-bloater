@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Doesn't work sometimes. Idk why
+
 source header
 
 mkdir -p "${output_directory_path}"
