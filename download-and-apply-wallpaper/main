@@ -7,5 +7,3 @@ wget -nc -o "${output_file_path}" "{$url}"
 gsettings set org.gnome.desktop.background picture-uri "file://${output_file_path}"
 
 gsettings set org.gnome.desktop.background picture-uri-dark "file://${output_file_path}"
-
-rm "${output_file_path}"
