@@ -2,4 +2,4 @@
 
 url="https://initiate.alphacoders.com/download/images5/979813/png"
 
-output_file_path="~/Pictures/Wallpapers/979813.png"
+output_file_path="/home/${USER}/Pictures/Wallpapers/979813.png"
