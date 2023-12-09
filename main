@@ -20,7 +20,7 @@ for item in "${modules[@]}"; do
 	fi
 	
 	echo
-	echo "Now executing $item"
+	echo -e "\033[0;37m Now executing $item"
 	cd "$item"
 	source main
 	last_exit_code=$?
