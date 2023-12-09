@@ -4,7 +4,7 @@ neovim
 ranger
 	linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,')
 	linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,')
-firmware-ath9k-htc
+firmware-atheros
 	broadcom-sta-dkms
 	curl
 	jq
