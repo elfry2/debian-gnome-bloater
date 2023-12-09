@@ -5,12 +5,12 @@ modules=(
 	add-apt-repositories
 	add-visual-studio-code-apt-repository
 	remove-apt-packages
+remove-unused-apt-packages
 full-upgrade-system
 	install-apt-packages
 #	enable-broadcom-sta-dkms-driver
 	install-gnome-shell-extension-appindicator
 	install-gnome-shell-extension-just-perfection
-remove-unused-apt-packages
 	enable-gnome-extensions
 	show-minimize-and-maximize-buttons
 	copy-aliases-file-to-home-directory
