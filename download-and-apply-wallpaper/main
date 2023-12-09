@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Doesn't work sometimes. Idk why
+# Doesn't work sometimes. Spent the last few hours on this and still idk why
 
 source header
 
