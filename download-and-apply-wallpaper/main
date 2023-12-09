@@ -4,7 +4,7 @@ source header
 
 mkdir -p "${output_directory_path}"
 
-wget -nc -o "${output_file_path}" "{$url}"
+wget -nc -O "${output_file_path}" "{$url}"
 
 gsettings set org.gnome.desktop.background picture-uri "file://${output_file_path}"
 
