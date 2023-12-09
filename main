@@ -12,6 +12,7 @@ done
 
 initial_directory=$(pwd)
 last_exit_code=0
+color_light_grey='\033[0;32m'
 
 # Source the modules sequentially. Stop on error.
 for item in "${modules[@]}"; do
@@ -20,7 +21,7 @@ for item in "${modules[@]}"; do
 	fi
 	
 	echo
-	echo -e "\033[0;37m Now executing $item"
+	echo -e "${color_light_grey}Now executing $item"
 	cd "$item"
 	source main
 	last_exit_code=$?
