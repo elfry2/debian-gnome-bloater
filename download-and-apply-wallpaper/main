@@ -4,7 +4,7 @@ source header
 
 sudo mkdir -p "${output_directory_path}"
 
-sudo chmod 777 "${output_directory_path}" # Otherwise the wallpaper won't be changed
+sudo chmod 777 "${output_directory_path}" # Otherwise the wallpaper won't be changed. Not even 755 works. Idk why
 
 sudo wget -nc -O "${output_file_path}" "${url}"
 
