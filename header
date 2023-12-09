@@ -8,9 +8,9 @@ modules=(
 full-upgrade-system
 	install-apt-packages
 #	enable-broadcom-sta-dkms-driver
-remove-unused-apt-packages
 	install-gnome-shell-extension-appindicator
 	install-gnome-shell-extension-just-perfection
+remove-unused-apt-packages
 	enable-gnome-extensions
 	show-minimize-and-maximize-buttons
 	copy-aliases-file-to-home-directory
