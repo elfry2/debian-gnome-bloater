@@ -1,0 +1,5 @@
+#!/bin/bash
+
+url="https://initiate.alphacoders.com/download/images5/979813/png"
+
+output_file_path="/usr/share/wallpapers/979813.png"
