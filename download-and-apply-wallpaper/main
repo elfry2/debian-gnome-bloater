@@ -4,7 +4,7 @@ source header
 
 sudo mkdir -p "${output_directory_path}"
 
-sudo chmod 644 "${output_directory_path}"
+sudo chmod 755 "${output_directory_path}"
 
 sudo wget -nc -O "${output_file_path}" "${url}"
 
