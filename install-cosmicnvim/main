@@ -1,6 +1,6 @@
 #!/bin/bash
 
-initial_directory="${pwd}"
+origin="$(pwd)"
 
 # move to config dir
 cd ~/.config
@@ -11,4 +11,4 @@ cp -r nvim nvim.backup
 # clone repository
 git clone https://github.com/CosmicNvim/CosmicNvim.git nvim
 
-cd "${initial_directory}"
+cd "${origin}"
