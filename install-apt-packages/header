@@ -13,7 +13,6 @@ firmware-atheros
 	htop
 	git
 	l3afpad
-epiphany-browser
 	ttf-mscorefonts-installer
 	flatpak
 	gnome-software-plugin-flatpak
