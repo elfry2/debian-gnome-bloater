@@ -7,6 +7,6 @@ cd ~/.config
 cp -r nvim nvim.backup
 
 # clone repository
-git clone git@github.com:CosmicNvim/CosmicNvim.git nvim
+git clone https://github.com/CosmicNvim/CosmicNvim.git nvim
 
 cd "${initial_directory}"
