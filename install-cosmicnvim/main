@@ -1,3 +1,5 @@
+#!/bin/bash
+
 initial_directory="${pwd}"
 
 # move to config dir
