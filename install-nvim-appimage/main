@@ -1,6 +1,6 @@
 #!/bin/bash
 
-origin="${pwd}"
+origin="$(pwd)"
 
 cd /usr/local/bin
 
