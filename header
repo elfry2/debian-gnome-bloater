@@ -23,6 +23,7 @@ full-upgrade-system
 	install-adw-gtk3-gtk3-theme
 	change-gtk3-theme
 	add-current-user-to-scanner-group
+install-cosmicnvim
 download-and-apply-wallpaper
 	script-finished
 )
