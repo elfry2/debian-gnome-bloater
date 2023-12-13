@@ -5,7 +5,7 @@ origin="$(pwd)"
 cd /usr/local/bin
 
 sudo curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
-sudo chmod u+x nvim.appimage
+sudo chmod +x nvim.appimage
 
 cd "${origin}"
 
@@ -16,4 +16,5 @@ sudo update-alternatives --install /usr/bin/ex ex "${CUSTOM_NVIM_PATH}" 110
 sudo update-alternatives --install /usr/bin/vi vi "${CUSTOM_NVIM_PATH}" 110
 sudo update-alternatives --install /usr/bin/view view "${CUSTOM_NVIM_PATH}" 110
 sudo update-alternatives --install /usr/bin/vim vim "${CUSTOM_NVIM_PATH}" 110
+sudo update-alternatives --install /usr/bin/nvim nvim "${CUSTOM_NVIM_PATH}" 110
 sudo update-alternatives --install /usr/bin/vimdiff vimdiff "${CUSTOM_NVIM_PATH}" 110
