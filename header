@@ -24,7 +24,7 @@ full-upgrade-system
 	change-gtk3-theme
 	add-current-user-to-scanner-group
 install-nvim-appimage
-# install-cosmicnvim #needs neovim ver. >= 0.10
+install-cosmicnvim #requires neovim ver. >= 0.10.0
 download-and-apply-wallpaper
 	script-finished
 )
