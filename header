@@ -23,6 +23,8 @@ modules=(
 	install-adw-gtk3-gtk3-theme
 	change-gtk3-theme
 	add-current-user-to-scanner-group
+	install-npm-packages
+	uninstall-neovim
 	install-neovim-appimage
 	install-cosmicnvim #requires neovim ver. >= 0.10.0
 	download-and-apply-wallpaper

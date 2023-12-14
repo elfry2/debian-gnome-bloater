@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# uninstall nvim
+sudo apt purge -y neovim
+sudo rm -v /usr/local/bin/nvim.appimage
+
+# uninstall cosmicnvim
+sudo rm -rv ~/.config/nvim
+sudo rm -rv ~/.local/share/nvim
+echo "Neovim uninstalled."

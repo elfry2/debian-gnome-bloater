@@ -4,10 +4,12 @@
 
 source header
 
-mkdir -p "${output_directory_path}"
+sudo mkdir -p "${output_directory_path}"
 
-wget -nc -O "${output_file_path}" "${url}"
+sudo wget -O "${output_file_path}" "${url}"
 
 gsettings set org.gnome.desktop.background picture-uri "file://${output_file_path}"
 
 gsettings set org.gnome.desktop.background picture-uri-dark "file://${output_file_path}"
+
+echo "Wallpaper changed. If it hasn't, pick any wallpaper on Settings > Appearance > Background and re-execute this script."
