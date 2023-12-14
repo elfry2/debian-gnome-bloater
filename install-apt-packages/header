@@ -15,12 +15,14 @@ packages=(
 	ttf-mscorefonts-installer
 	flatpak
 	gnome-software-plugin-flatpak
-	gnome-shell-extension-autohidetopbar
+	gnome-shell-extensions
+	gnome-shell-extensions-extra
 	gnome-shell-extension-caffeine
-	gnome-shell-extension-dashtodock
 	gnome-shell-extension-desktop-icons-ng
 	gnome-shell-extension-gsconnect
-	gnome-shell-extensions-extra
+	gnome-shell-extension-dash-to-panel
+#	gnome-shell-extension-dashtodock
+#	gnome-shell-extension-autohidetopbar
 	meson
 	ninja-build
 	gettext

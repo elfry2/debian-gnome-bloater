@@ -2,10 +2,11 @@
 
 extensions=(
 	appindicatorsupport@rgcjonas.gmail.com
-	hidetopbar@mathieu.bidon.ca
 	caffeine@patapon.info
-	dash-to-dock@micxgx.gmail.com
 	no-overview@fthx
 	gsconnect@andyholmes.github.io
-	just-perfection-desktop@just-perfection
+	dash-to-panel@jderose9.github.com
+#	dash-to-dock@micxgx.gmail.com
+#	hidetopbar@mathieu.bidon.ca
+#	just-perfection-desktop@just-perfection
 )
