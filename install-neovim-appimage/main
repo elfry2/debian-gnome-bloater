@@ -4,7 +4,7 @@ origin="$(pwd)"
 
 cd /usr/local/bin
 
-sudo curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+sudo curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage
 sudo chmod +x nvim.appimage
 
 cd "${origin}"

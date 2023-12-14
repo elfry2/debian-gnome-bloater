@@ -1,9 +1,9 @@
 #!/bin/bash
 packages=(
-ranger
+	ranger
 	linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,')
 	linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,')
-firmware-atheros
+	firmware-atheros
 	broadcom-sta-dkms
 	curl
 	jq
@@ -48,5 +48,5 @@ firmware-atheros
 	qt5-style-kvantum
 	qt5-style-kvantum-themes
 	hplip-gui
-# epiphany-browser
+#	epiphany-browser
 )
