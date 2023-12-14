@@ -6,6 +6,7 @@ packages=(
 	firmware-atheros
 	broadcom-sta-dkms
 	curl
+	gnutls-bin # for cosmicnvim
 	jq
 	wget
 	neofetch

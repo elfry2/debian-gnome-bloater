@@ -8,7 +8,12 @@ cd ~/.config
 # back up current config
 cp -r nvim nvim.backup
 
+# ensure the gnutls-bin apt package is installed
+sudo apt install -y gnutls-bin
+
 # clone repository
 git clone https://github.com/CosmicNvim/CosmicNvim.git nvim
 
 cd "${origin}"
+
+echo "Run nvim to start installing cosmicnvim. If gnutls errors appear, quit nvim and run it again. Repeat until the dashboard appears."
