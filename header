@@ -24,6 +24,7 @@ modules=(
 	change-gtk3-theme
 	add-current-user-to-scanner-group
 	install-npm-packages
+	install-hack-nerd-font
 	remove-neovim
 	install-neovim-appimage
 	install-cosmicnvim #requires neovim ver. >= 0.10.0
