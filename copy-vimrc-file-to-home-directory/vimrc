@@ -11,9 +11,9 @@ set shiftwidth=2
 " Found on https://unix.stackexchange.com/a/19946.
 set autoindent
 
-" Turn on smart indent, i.e. automatically insert an indent after braces, parentheses, etc.
+" Turn on cindent, i.e. automatically insert an indent after braces, parentheses, etc.
 " Found on https://stackoverflow.com/a/59860142
-set smartindent
+set cindent
 
 " Automatically close braces, parentheses, quotation marks, etc.
 " Found on https://stackoverflow.com/a/34992101.
@@ -24,5 +24,6 @@ inoremap [ []<left>
 inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
-
+inoremap (<CR> (<CR>)<ESC>O
+inoremap [<CR> [<CR>]<ESC>O
 
