@@ -1,7 +1,0 @@
-#!/bin/bash
-
-source header
-
-for item in "${packages[@]}"; do
-	sudo npm install -g $item
-done

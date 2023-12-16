@@ -1,12 +1,12 @@
 #!/bin/bash
 packages=(
 	ranger
+	vim
 	linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,')
 	linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,')
 	firmware-atheros
 	broadcom-sta-dkms
 	curl
-	gnutls-bin # for cosmicnvim
 	jq
 	wget
 	neofetch
