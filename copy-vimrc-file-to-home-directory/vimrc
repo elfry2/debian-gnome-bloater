@@ -1,3 +1,7 @@
+" Turn on syntax highlighting
+" Found in https://linuxhandbook.com/syntax-highlight-vim/
+syntax on
+
 " Use narrower tab width.
 " Found on https://stackoverflow.com/a/57708527. 
 set tabstop=2
