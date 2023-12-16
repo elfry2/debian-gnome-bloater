@@ -24,5 +24,6 @@ modules=(
 	change-gtk3-theme
 	add-current-user-to-scanner-group
 	download-and-apply-wallpaper
+	copy-vimrc-file-to-home-directory	
 	script-finished
 )
