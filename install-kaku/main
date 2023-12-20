@@ -1,6 +1,0 @@
-#!/bin/bash
-
-git clone https://github.com/elfry2/kaku 
-cd kaku && ./main && cd ..
-
-sudo rm -rv kaku
