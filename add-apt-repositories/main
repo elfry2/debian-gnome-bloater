@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source header
+
+for item in "${repositories[@]}"; do
+	sudo add-apt-repository -y -n $item
+done
+
+sudo apt update

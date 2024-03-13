@@ -1,0 +1,30 @@
+#!/bin/bash
+
+modules=(
+	about
+	add-apt-repositories
+	add-visual-studio-code-apt-repository
+	remove-apt-packages
+	remove-unused-apt-packages
+	full-upgrade-system
+	install-apt-packages
+#	enable-broadcom-sta-dkms-driver
+	install-gnome-shell-extension-appindicator
+#	install-gnome-shell-extension-just-perfection
+#	enable-gnome-extensions
+#	show-minimize-and-maximize-buttons
+	copy-aliases-file-to-home-directory
+	create-empty-file-template
+	add-flatpak-repositories
+	install-flatpak-packages
+	override-flatpak-qt-apps-theme
+	install-kvlibadwaita-kvantum-theme
+	change-kvantum-theme
+	install-adw-gtk3-gtk3-theme
+#	change-gtk3-theme
+	add-current-user-to-scanner-group
+	download-and-apply-wallpaper
+#	restore-gnome-configuration
+	install-lines
+	script-finished
+)

@@ -1,0 +1,17 @@
+#!/bin/bash
+packages=(
+	flathub\ com.github.tchx84.Flatseal
+	flathub\ org.kde.KStyle.Kvantum//5.15
+	flathub\ com.github.rafostar.Clapper
+	flathub\ com.brave.Browser
+	flathub\ com.github.johnfactotum.Foliate
+#	flathub\ com.github.babluboy.bookworm # Just in case Foliate hangs again. It hasn't hanged since I tried this fix from https://github.com/johnfactotum/foliate/issues/879#issuecomment-1290626110 . Basically set the GNOME power profile to anything other than Power Saver.
+	flathub\ com.spotify.Client
+	flathub\ io.bassi.Amberol
+	flathub\ us.zoom.Zoom
+	flathub\ net.agalwood.Motrix
+	flathub\ org.gtk.Gtk3theme.adw-gtk3
+	flathub\ org.gtk.Gtk3theme.adw-gtk3-dark
+#	flathub\ org.onlyoffice.desktopeditors
+	flathub\ com.getpostman.Postman
+)

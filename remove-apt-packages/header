@@ -1,0 +1,5 @@
+#!/bin/bash
+packages=(
+# libreoffice*
+# firefox-esr
+)

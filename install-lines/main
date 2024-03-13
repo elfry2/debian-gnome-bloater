@@ -1,0 +1,6 @@
+#!/bin/bash
+
+git clone https://github.com/elfry2/lines
+cd lines && ./main && cd ..
+
+sudo rm -rv lines

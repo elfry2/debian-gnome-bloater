@@ -1,0 +1,12 @@
+#!/bin/bash
+
+extensions=(
+	appindicatorsupport@rgcjonas.gmail.com
+	caffeine@patapon.info
+	no-overview@fthx
+	gsconnect@andyholmes.github.io
+	dash-to-panel@jderose9.github.com
+#	dash-to-dock@micxgx.gmail.com
+#	hidetopbar@mathieu.bidon.ca
+#	just-perfection-desktop@just-perfection
+)

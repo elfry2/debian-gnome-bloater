@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source header
+
+gsettings set org.gnome.desktop.interface gtk-theme "$themeName" && gsettings set org.gnome.desktop.interface color-scheme "$colorScheme"

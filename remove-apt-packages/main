@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source header
+
+sudo apt purge -y $(printf "%s "  "${packages[@]}")

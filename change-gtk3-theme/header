@@ -1,0 +1,4 @@
+#!/bin/bash
+
+themeName="adw-gtk3-dark"
+colorScheme="prefer-dark"

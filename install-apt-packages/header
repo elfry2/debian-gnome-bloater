@@ -1,0 +1,55 @@
+#!/bin/bash
+packages=(
+	ranger
+#	vim # will be installed using kaku instead.
+	linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,')
+	linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,')
+	firmware-atheros
+	broadcom-sta-dkms
+	curl
+	jq
+	wget
+	neofetch
+	htop
+	git
+	l3afpad
+	ttf-mscorefonts-installer
+	flatpak
+	gnome-software-plugin-flatpak
+	gnome-shell-extensions
+	gnome-shell-extensions-extra
+	gnome-shell-extension-caffeine
+	gnome-shell-extension-desktop-icons-ng
+	gnome-shell-extension-gsconnect
+	gnome-shell-extension-dash-to-panel
+#	gnome-shell-extension-dashtodock
+#	gnome-shell-extension-autohidetopbar
+	meson
+	ninja-build
+	gettext
+	apache2
+	mariadb-server
+	php
+	libapache2-mod-php
+	php-mysql
+	openssl
+	php-bcmath
+	php-curl
+	php-json
+	php-mbstring
+	php-mysql
+	php-tokenizer
+	php-xml
+	php-zip
+	php-gd
+	phpmyadmin
+	composer
+	apt-transport-https
+	code # 'cause the built-in terminal in the Flatpak version doesn't use my system's shell
+	npm
+	unrar
+	qt5-style-kvantum
+	qt5-style-kvantum-themes
+	hplip-gui
+#	epiphany-browser
+)

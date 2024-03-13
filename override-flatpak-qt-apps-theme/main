@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo flatpak override --env=QT_STYLE_OVERRIDE=kvantum --filesystem=xdg-config/Kvantum:ro

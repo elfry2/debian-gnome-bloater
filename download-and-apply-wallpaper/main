@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Doesn't work sometimes. Spent the last few hours on this and still idk why
+
+source header
+
+sudo mkdir -p "${output_directory_path}"
+
+sudo wget -O "${output_file_path}" "${url}"
+
+gsettings set org.gnome.desktop.background picture-uri "file://${output_file_path}"
+
+gsettings set org.gnome.desktop.background picture-uri-dark "file://${output_file_path}"
+
+echo "Wallpaper changed. If it hasn't, pick any wallpaper on Settings > Appearance > Background and re-execute this script."

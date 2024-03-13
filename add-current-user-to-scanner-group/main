@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo usermod -a -G scanner $(whoami)
+
+echo "The current user has been added to the scanner group and may now use scanners. Reconnect the scanner to start using it."

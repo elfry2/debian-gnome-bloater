@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source header
+
+for item in "${packages[@]}"; do
+	flatpak install -y $item
+done

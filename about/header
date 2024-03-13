@@ -1,0 +1,4 @@
+#!/bin/bash
+
+name="Debian GNOME Bloater"
+description="Please review every file and modify as needed, particularly the ones listed in the modules array in ./header, before proceeding further, as they may cause unwanted changes. Please ensure that your internet connection remains stable until the script finishes executing. Do not run with sudo; password will be asked as needed."

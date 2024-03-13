@@ -1,0 +1,30 @@
+#!/bin/bash
+
+source header
+
+# Ensure that all registered modules exist before sourcing them.
+for item in "${modules[@]}"; do
+	if [ ! -f "$item"/main ]; then
+		echo "Module $item does not exist. Exiting..."
+		exit
+	fi
+done
+
+initial_directory=$(pwd)
+last_exit_code=0
+color_light_grey='\033[0;37m'
+color_no_color='\033[0m'
+
+# Source the modules sequentially. Stop on error.
+for item in "${modules[@]}"; do
+	if [ $last_exit_code != 0 ]; then
+		break
+	fi
+	
+	echo
+	echo -e "${color_light_grey}Now executing $item ${color_no_color}"
+	cd "$item"
+	source main
+	last_exit_code=$?
+	cd "$initial_directory"
+done

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+url=$(curl -s https://api.github.com/repos/lassekongo83/adw-gtk3/releases/latest | jq --raw-output '.assets[0] | .browser_download_url')
+
+curl -LO "$url"
+
+fileName=$(find . -name '*.tar.xz')
+
+sudo tar -xvf "$fileName" -C /usr/share/themes
+
+sudo rm -rv "$fileName"

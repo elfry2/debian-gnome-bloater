@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source header
+
+for i in "${extensions[@]}"; do
+	gnome-extensions enable $i
+done
+
+echo "Extensions enabled. If \"Extension ... does not exist\" error occurs, log out, log back in, and execute this script again."
