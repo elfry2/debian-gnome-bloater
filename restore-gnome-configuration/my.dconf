@@ -1,0 +1,127 @@
+[org/gnome/control-center]
+last-panel='mouse'
+window-state=(980, 640, false)
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+picture-options='zoom'
+picture-uri='file:///usr/share/wallpapers/979813.png'
+picture-uri-dark='file:///usr/share/wallpapers/979813.png'
+
+[org/gnome/desktop/input-sources]
+current=uint32 0
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+document-font-name='Cantarell 10'
+font-antialiasing='grayscale'
+font-hinting='slight'
+font-name='Cantarell 10'
+gtk-theme='adw-gtk3-dark'
+monospace-font-name='Monospace 10'
+
+[org/gnome/desktop/notifications]
+application-children=['org-gnome-software']
+
+[org/gnome/desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[org/gnome/desktop/peripherals/touchpad]
+tap-to-click=true
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+report-technical-problems=true
+
+[org/gnome/desktop/wm/preferences]
+titlebar-font='Cantarell Bold 10'
+
+[org/gnome/evolution-data-server]
+migrated=true
+
+[org/gnome/nautilus/icon-view]
+default-zoom-level='small'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+search-view='list-view'
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+
+[org/gnome/shell]
+disabled-extensions=['places-menu@gnome-shell-extensions.gcampax.github.com', 'vertical-workspaces@G-dH.github.com', 'window-list@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=['caffeine@patapon.info', 'ding@rastersoft.com', 'gsconnect@andyholmes.github.io', 'no-overview@fthx', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-panel@jderose9.github.com']
+favorite-apps=['yelp.desktop', 'org.gnome.Software.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Nautilus.desktop', 'com.brave.Browser.desktop']
+last-selected-power-profile='power-saver'
+welcome-dialog-last-shown-version='43.9'
+
+[org/gnome/shell/extensions/caffeine]
+indicator-position-max=1
+
+[org/gnome/shell/extensions/dash-to-panel]
+animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
+appicon-margin=2
+appicon-padding=4
+available-monitors=[0]
+dot-style-focused='METRO'
+hotkeys-overlay-combo='TEMPORARILY'
+intellihide=true
+intellihide-hide-from-windows=true
+leftbox-padding=-1
+panel-anchors='{"0":"MIDDLE"}'
+panel-lengths='{"0":100}'
+panel-sizes='{"0":40}'
+primary-monitor=0
+status-icon-padding=-1
+tray-padding=-1
+window-preview-title-position='TOP'
+
+[org/gnome/shell/extensions/ding]
+check-x11wayland=true
+show-home=false
+show-trash=false
+show-volumes=false
+
+[org/gnome/shell/extensions/gsconnect]
+id='7382dd94-b9e0-481a-8359-c982cafdea94'
+name='debian'
+
+[org/gnome/shell/world-clocks]
+locations=@av []
+
+[org/gnome/software]
+check-timestamp=int64 1710428126
+first-run=false
+install-timestamp=int64 1693565702
+update-notification-timestamp=int64 1710428152
+
+[org/gnome/system/location]
+enabled=true
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+default-size-columns=128
+default-size-rows=40
+font='Hack Nerd Font Mono 10'
+use-system-font=false
+
+[org/gtk/gtk4/settings/file-chooser]
+show-hidden=false
+sort-directories-first=false
