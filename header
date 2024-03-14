@@ -24,7 +24,7 @@ modules=(
 #	change-gtk3-theme
 	add-current-user-to-scanner-group
 	download-and-apply-wallpaper
-#	restore-gnome-configuration
+	restore-gnome-configuration
 	install-lines
 	script-finished
 )
