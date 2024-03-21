@@ -74,7 +74,7 @@ last-selected-power-profile='power-saver'
 welcome-dialog-last-shown-version='43.9'
 
 [org/gnome/shell/extensions/caffeine]
-indicator-position-max=1
+indicator-position-max=2
 
 [org/gnome/shell/extensions/dash-to-panel]
 animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
@@ -87,6 +87,7 @@ intellihide=true
 intellihide-hide-from-windows=true
 leftbox-padding=-1
 panel-anchors='{"0":"MIDDLE"}'
+panel-element-positions='{"0":[{"element":"showAppsButton","visible":true,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"centerMonitor"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
 panel-lengths='{"0":100}'
 panel-sizes='{"0":40}'
 primary-monitor=0
@@ -108,7 +109,7 @@ name='debian'
 locations=@av []
 
 [org/gnome/software]
-check-timestamp=int64 1710428126
+check-timestamp=int64 1711002259
 first-run=false
 install-timestamp=int64 1693565702
 update-notification-timestamp=int64 1710428152
