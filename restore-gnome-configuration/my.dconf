@@ -74,7 +74,7 @@ last-selected-power-profile='power-saver'
 welcome-dialog-last-shown-version='43.9'
 
 [org/gnome/shell/extensions/caffeine]
-indicator-position-max=2
+indicator-position-max=1
 
 [org/gnome/shell/extensions/dash-to-panel]
 animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
@@ -92,6 +92,10 @@ panel-lengths='{"0":100}'
 panel-sizes='{"0":40}'
 primary-monitor=0
 status-icon-padding=-1
+trans-panel-opacity=0.33000000000000002
+trans-use-custom-bg=false
+trans-use-custom-opacity=true
+trans-use-dynamic-opacity=true
 tray-padding=-1
 window-preview-title-position='TOP'
 
