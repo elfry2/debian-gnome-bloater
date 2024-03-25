@@ -1,7 +1,6 @@
 #!/bin/bash
 packages=(
 	ranger
-#	vim # will be installed using kaku instead.
 	linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,')
 	linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,')
 	firmware-atheros
@@ -52,4 +51,5 @@ packages=(
 	qt5-style-kvantum-themes
 	hplip-gui
 #	epiphany-browser
+	httpie
 )
