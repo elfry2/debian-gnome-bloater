@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Source: https://gist.github.com/Akhil-Suresh/e036a52bd00104ab21e9891224157809
+sudo rm -rf /opt/Postman
+
+tar -C /tmp/ -xzf <(curl -L https://dl.pstmn.io/download/latest/linux64) && sudo mv /tmp/Postman /opt/
+
+sudo tee -a /usr/share/applications/postman.desktop << END
+[Desktop Entry]
+Encoding=UTF-8
+Name=Postman
+Exec=/opt/Postman/Postman
+Icon=/opt/Postman/app/resources/app/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Development;
+END

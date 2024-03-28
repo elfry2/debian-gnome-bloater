@@ -26,5 +26,6 @@ modules=(
 	download-and-apply-wallpaper
 	restore-gnome-configuration
 	install-lines
+	install-postman
 	script-finished
 )
