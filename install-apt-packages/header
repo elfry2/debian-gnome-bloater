@@ -52,4 +52,5 @@ packages=(
 	hplip-gui
 #	epiphany-browser
 	httpie
+	mongodb-org
 )

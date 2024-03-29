@@ -4,6 +4,7 @@ modules=(
 	about
 	add-apt-repositories
 	add-visual-studio-code-apt-repository
+	add-mongodb-apt-repository
 	remove-apt-packages
 	remove-unused-apt-packages
 	full-upgrade-system
