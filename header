@@ -28,5 +28,6 @@ modules=(
 	restore-gnome-configuration
 	install-lines
 	install-postman
+	install-mongodb-compass
 	script-finished
 )
