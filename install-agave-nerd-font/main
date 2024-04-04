@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ ! "$1" == '--no-download' ]; then
+	curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.0/Agave.zip
+	sudo mkdir -p /usr/share/fonts/truetype/agave-nerd
+	sudo unzip -o Agave.zip -d /usr/share/fonts/truetype/agave-nerd
+	sudo fc-cache -fv
+	rm -v Agave.zip
+fi
+
