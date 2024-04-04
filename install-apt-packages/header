@@ -41,6 +41,7 @@ packages=(
 	php-xml
 	php-zip
 	php-gd
+	php-sqlite3
 	phpmyadmin
 	composer
 	apt-transport-https
