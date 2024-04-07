@@ -25,7 +25,7 @@ modules=(
 #	change-gtk3-theme
 	add-current-user-to-scanner-group
 	download-and-apply-wallpaper
-	install-agave-nerd-font
+	install-roboto-mono-nerd-font
 	restore-gnome-configuration
 	install-lines
 	install-postman

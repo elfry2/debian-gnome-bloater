@@ -1,0 +1,7 @@
+#!/bin/bash
+
+curl -LO https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.0/RobotoMono.zip
+sudo mkdir -p /usr/share/fonts/truetype/roboto-mono-nerd
+sudo unzip -o RobotoMono.zip -d /usr/share/fonts/truetype/roboto-mono-nerd
+sudo fc-cache -fv
+rm -v RobotoMono.zip
