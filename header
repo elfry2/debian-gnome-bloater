@@ -12,7 +12,8 @@ modules=(
 #	enable-broadcom-sta-dkms-driver
 	install-gnome-shell-extension-appindicator
 #	install-gnome-shell-extension-just-perfection
-#	enable-gnome-extensions
+	install-gnome-extensions
+	enable-gnome-extensions
 #	show-minimize-and-maximize-buttons
 	copy-aliases-file-to-home-directory
 	create-empty-file-template

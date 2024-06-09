@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source header
+
+wget -O gnome-shell-extension-installer "https://github.com/brunelli/gnome-shell-extension-installer/raw/master/gnome-shell-extension-installer"
+chmod +x gnome-shell-extension-installer
+sudo mv gnome-shell-extension-installer /usr/bin
+
+for id in "${ids[@]}"; do
+	gnome-shell-extension-installer --yes --restart-shell $id
+done

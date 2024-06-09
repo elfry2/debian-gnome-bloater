@@ -1,0 +1,5 @@
+#!/bin/bash
+ids=(
+	3628 # ArcMenu
+	1319 # GSConnect
+)
