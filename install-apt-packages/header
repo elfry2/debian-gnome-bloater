@@ -54,4 +54,5 @@ packages=(
 #	epiphany-browser
 	httpie
 	mongodb-org
+	bleachbit
 )
