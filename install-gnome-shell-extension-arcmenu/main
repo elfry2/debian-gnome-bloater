@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo rm -rv ArcMenu
+git clone --single-branch --branch gnome-42/43/44 https://gitlab.com/arcmenu/ArcMenu.git
+cd ArcMenu
+make install
+cd ..
+sudo rm -rv ArcMenu
