@@ -7,5 +7,7 @@ chmod +x gnome-shell-extension-installer
 sudo mv gnome-shell-extension-installer /usr/bin
 
 for id in "${ids[@]}"; do
-	gnome-shell-extension-installer --yes --restart-shell $id
+	sudo gnome-shell-extension-installer --yes $id
+	gnome-shell-extension-installer --no-install --restart-shell $id > /dev/zero
+	rm *.zip
 done
