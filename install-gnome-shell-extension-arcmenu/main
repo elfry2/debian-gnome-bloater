@@ -6,3 +6,5 @@ cd ArcMenu
 make install
 cd ..
 sudo rm -rv ArcMenu
+sudo rm -rv /usr/share/gnome-shell/extensions/arcmenu\@arcmenu.com
+sudo mv -v ~/.local/share/gnome-shell/extensions/arcmenu\@arcmenu.com/ /usr/share/gnome-shell/extensions
