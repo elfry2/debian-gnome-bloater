@@ -29,7 +29,7 @@ modules=(
 	download-and-apply-wallpaper
 	install-roboto-mono-nerd-font
 	restore-gnome-configuration
-	install-lines
+	install-kami
 	install-postman
 	script-finished
 )
