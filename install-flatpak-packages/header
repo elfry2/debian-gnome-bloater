@@ -12,7 +12,7 @@ packages=(
 	flathub\ net.agalwood.Motrix
 	flathub\ org.gtk.Gtk3theme.adw-gtk3
 	flathub\ org.gtk.Gtk3theme.adw-gtk3-dark
-#	flathub\ org.onlyoffice.desktopeditors
+	flathub\ org.onlyoffice.desktopeditors
 	flathub\ org.signal.Signal
 	flathub\ com.mongodb.Compass
 )
