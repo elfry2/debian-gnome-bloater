@@ -28,7 +28,8 @@ modules=(
 	add-current-user-to-scanner-group
 	download-and-apply-wallpaper
 	install-roboto-mono-nerd-font
-	restore-gnome-configuration
+#	restore-gnome-configuration
+	install-rin
 	install-kami
 	install-postman
 	script-finished

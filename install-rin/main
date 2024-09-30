@@ -1,0 +1,6 @@
+#!/bin/bash
+git clone https://github.com/elfry2/rin
+cd rin
+./install.sh
+cd ..
+rm -rvf rin
