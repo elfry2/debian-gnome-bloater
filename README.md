@@ -1,5 +1,5 @@
 # debian-gnome-bloater
-![A screenshot of the latest version](screenshots/Screenshot%20from%202024-06-09%2023-12-33.png "A screenshot of the latest version")
+![Screenshot from 2024-09-30 23-31-26](https://github.com/user-attachments/assets/a4192c04-89c5-4f94-b528-48f6bad405cd)
 
 A collection of BASH scripts to help automate my Debian GNOME post-install routines. USE AT YOUR OWN RISKS!
 
