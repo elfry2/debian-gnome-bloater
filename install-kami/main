@@ -1,0 +1,6 @@
+#!/bin/bash
+
+git clone https://github.com/elfry2/kami
+cd kami
+./install.sh
+cd ..
