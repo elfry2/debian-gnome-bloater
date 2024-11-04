@@ -2,6 +2,7 @@
 
 modules=(
 	about
+	minimise-swappiness
 	add-apt-repositories
 	add-visual-studio-code-apt-repository
 	add-mongodb-apt-repository
