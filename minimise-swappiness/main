@@ -1,6 +1,6 @@
 #!/bin/bash
 
 if ! grep -q "vm.swappiness" "/etc/sysctl.conf"; then
-	sudo bash -c "echo 'vm.swappiness = 5' >> /etc/sysctl.conf"
+	sudo bash -c "echo 'vm.swappiness = 10' >> /etc/sysctl.conf"
 	sudo sysctl -p
 fi
