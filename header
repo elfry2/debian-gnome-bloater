@@ -18,7 +18,7 @@ modules=(
   #	install-gnome-extensions # broken
   enable-gnome-extensions
   #	show-minimize-and-maximize-buttons
-  copy-aliases-file-to-home-directory
+  install-aliases
   create-empty-file-template
   add-flatpak-repositories
   install-flatpak-packages

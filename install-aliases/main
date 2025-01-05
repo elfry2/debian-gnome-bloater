@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source header
+
+cp -v aliases ~/.aliases
+
+if ! grep -wq "source ~/.aliases" $rcFilePath ; then
+	echo "" >> $rcFilePath
+	echo "source ~/.aliases" >> $rcFilePath
+fi
+
+echo "Aliases installed. You might need to restart your shell or reload its configuration file before using them."
